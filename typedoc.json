@@ -1,0 +1,12 @@
+{
+    "name": "",
+    "includeVersion": true,
+    "readme": "README.md",
+    "entryPoints": ["src/"],
+    "out": "docs",
+    "entryPointStrategy": "expand",
+    "excludeNotDocumented": "true",
+    "excludeInternal": "false",
+    "excludePrivate": "false",
+    "excludeProtected": "false"
+}

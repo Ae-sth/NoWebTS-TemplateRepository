@@ -1,0 +1,37 @@
+{
+  "name": "<repo-name>",
+  "version": "1.0.0",
+  "description": "<insert your description here>",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha dist/tests",
+    "style": "prettier",
+    "start": "rimraf dist/ && tsc && cd dist && node index.js",
+    "roll": "rimraf dist/ && tsc && cd dist && node",
+    "docs": "typedoc"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ae-sth/<repo-name>"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "<author>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ae-sth/<repo-name>/issues"
+  },
+  "homepage": "https://github.com/Ae-sth/<repo-name>#readme",
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "esnext", 
+    "target": "es2017", 
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "emitDecoratorMetadata": true, 
+    "experimentalDecorators": true, 
+    "declaration": false,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node", 
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["./src/core/*"],
+      "@components/*": ["./src/components/*"],
+      "@modules/*":["./src/modules/*"],
+      "@misc/*": ["./src/misc/*"],
+      "@events/*": ["./src/events/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@assets/*": ["./assets/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
