@@ -1,0 +1,1 @@
+This folder will contain git submodules or external codebases necessary for our application.

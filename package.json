@@ -9,6 +9,7 @@
   "scripts": {
     "test": "mocha dist/tests",
     "style": "prettier",
+    "build": "tsc",
     "start": "rimraf dist/ && tsc && cd dist && node index.js",
     "roll": "rimraf dist/ && tsc && cd dist && node",
     "docs": "typedoc"
