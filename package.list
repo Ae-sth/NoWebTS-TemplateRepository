@@ -1,0 +1,9 @@
+typescript
+typedoc
+rimraf
+prettier
+winston
+lodash
+mocha
+javascript-obfuscator
+@types/node
